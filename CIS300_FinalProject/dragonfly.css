@@ -1,0 +1,119 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    align-items: stretch;
+    background-color: #f2efe5;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    height: 100px;
+    border-bottom: 2px solid #787236;
+}
+header img:first-child {
+    width: 150px;
+}
+header img:nth-child(2) {
+    width: 300px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: stretch;
+    width: 100%;
+}
+header li {
+    display: flex;
+    flex: 1;
+    margin: auto;
+    justify-content: center;
+    border-left: 2px solid #36454F;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+header li:last-child {
+    border-right: 2px solid #36454F;
+}
+header a {
+    text-decoration: none;
+    color: #36454F;
+    padding: 20px;
+}
+#wrapper {
+    background-image: url(wallpapergreen.png);
+    background-repeat: repeat;
+    background-size: auto;
+}
+nav ul, footer ul {
+    list-style: none;
+}
+.content {
+    background-color: #f2efe5;
+    align-items: center;
+    max-width: 1100px;
+    margin-top: 10px;
+    margin: auto;
+    padding-top: 40px;
+    border-left: 2px solid #787236;
+    border-right: 2px solid #787236;
+}
+#bigpic {
+    margin: auto;
+    width: 70%;
+    max-height: 600px;
+    display: block;
+    object-fit: cover;
+    border: 4px solid #787236;
+}
+main {
+    padding: 40px;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #787236;
+}
+main p:first-child {
+    text-align: center;
+    font-size: 42px;
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+main p:last-child {
+    text-align: center;
+    font-size: 22px;
+    font-style: italic;
+    color: #36454F;
+}
+h1 {
+    padding-bottom: 40px;
+    border-bottom: 2px solid #787236;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+footer li{
+    padding: 15px;
+    justify-content: center;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h5 {
+   color:#36454F 
+}
